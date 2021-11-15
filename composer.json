@@ -1,0 +1,18 @@
+{
+  "name": "esl/eslprice",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ahmedashraf",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "require": {
+    "phpseclib/phpseclib": "~3.0"
+  }
+}
