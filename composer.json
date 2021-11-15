@@ -1,18 +1,17 @@
 {
-  "name": "esl/eslprice",
-  "description": "description",
-  "minimum-stability": "stable",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "ahmedashraf",
-      "email": "email@example.com"
-    }
-  ],
-  "autoload": {
-    "classmap": ["src/"]
-  },
-  "require": {
-    "phpseclib/phpseclib": "~3.0"
-  }
+    "name": "ahmedashraf/esl-price",
+    "description": "A package to manupulate commodities on zkong cloud platform via APIs",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ahmedashraf\\EslPrice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammad Ahmed",
+            "email": "ahmed.ashraf@eplanetcom.com"
+        }
+    ],
+    "require": {}
 }

@@ -19,6 +19,10 @@ class ComposerStaticInit7f74352df9a7d91a8caa666997a0f727
         array (
             'ParagonIE\\ConstantTime\\' => 23,
         ),
+        'A' => 
+        array (
+            'Ahmedashraf\\EslPrice\\' => 21,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -30,12 +34,14 @@ class ComposerStaticInit7f74352df9a7d91a8caa666997a0f727
         array (
             0 => __DIR__ . '/..' . '/paragonie/constant_time_encoding/src',
         ),
+        'Ahmedashraf\\EslPrice\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Esl' => __DIR__ . '/../..' . '/src/Esl.php',
-        'EslItem' => __DIR__ . '/../..' . '/src/EslItem.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

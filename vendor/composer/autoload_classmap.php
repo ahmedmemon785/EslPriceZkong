@@ -7,6 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'Esl' => $baseDir . '/src/Esl.php',
-    'EslItem' => $baseDir . '/src/EslItem.php',
 );

@@ -93,8 +93,8 @@ class EslItem
     }
     public function setItemDefaults($item){
         $item->barCode=$this->itemCode;
-        $item->attrCategory='default';
-        $item->attrName='default';
+        $item->attrCategory='Test';
+        $item->attrName='data';
         return $item;
 
     }
@@ -153,9 +153,8 @@ class EslItem
         ));
 
         $response = curl_exec($curl);
-die($response);
         curl_close($curl);
-        die($response);
+
         echo $response;
     }
 
